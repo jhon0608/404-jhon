@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    padding: 40px 0px 0px 90px;
+    font-size: 1.8rem;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 30px 30px 0px 0px;
+}
+.home {
+    display: flex;
+    margin-top: 80px;
+    padding: 90px 90px 0px 90px;
+    margin-bottom: 30px;
+}
+.scarecrow {
+    width: 600px;
+    height: 600px;
+    margin-right: 200px;
+}
+.message {
+    width: 45%;
+}
+.title2 {
+    font-size: 4.5rem;
+    padding-bottom: 40px;
+}
+p {
+    font-size: 2rem;
+    margin-bottom: 90px;
+}
+.button {
+    margin-left: 60px;
+    height: 70px;
+    width: 170px;
+    transition: .9s;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #f84600;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    text-align: center;
+}
+/*MEDIA*/
+
+@media only screen and (max-width : 1500px) {
+    .scarecrow {
+        width: 400px;
+        height: 400px;
+        margin-right: 200px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    .title2 {
+        font-size: 3.5rem;
+        padding-bottom: 40px;
+    }
+    p {
+        font-size: 1.5rem;
+        margin-bottom: 90px;
+    }
+}
+@media only screen and (max-width : 1200px) {
+
+    footer {
+        margin-top: 200px;
+    }
+    .title2 {
+        font-size: 2.5rem;
+        padding-bottom: 40px;
+    }
+    p {
+        font-size: 1rem;
+        margin-bottom: 90px;
+    }
+}
+@media only screen and (max-width : 1000px) {
+    .home {
+        flex-wrap: wrap;
+    }
+    .button {
+        margin-left: 20px;
+        height: 50px;
+        width: 130px;
+    }
+    .scarecrow {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width : 760px) {
+    .home {
+        margin: 0;
+        align-content: space-between
+    }
+    .message{
+        width: 300px;
+    }
+    footer {
+        font-size: .8rem;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .title2 {
+        font-size: 2rem;
+        padding-bottom: 40px;
+    }
+    p {
+        font-size: .8rem;
+        margin-bottom: 90px;
+    }
+    .title {
+        font-size: 1rem;
+    }
+}
